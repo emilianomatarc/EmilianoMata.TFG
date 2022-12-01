@@ -1,0 +1,14 @@
+# Caso de Prueba: Alta de Cliente no existente
+
+PresionarBoton Clientes
+
+PresionarBoton Agregar
+EscribirCampoTexto Nombre Juan
+EscribirCampoTexto Apellido Perez
+EscribirCampoTexto DNI 25123456
+EscribirCampoTexto Telefono 3412295217
+EscribirCampoTexto Domicilio "Salta 2020"
+PresionarBoton Aceptar
+
+BuscarTexto 25123456
+PresionarBoton Volver
